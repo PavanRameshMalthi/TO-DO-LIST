@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  font-family: 'Sora', 'Segoe UI', sans-serif;
+  transition: background 0.3s, color 0.3s;
+  padding-bottom: 60px;
+}
+
+input, select, button {
+  font-family: inherit;
+}
+
+button:hover {
+  opacity: 0.88;
+  transition: opacity 0.15s;
+}
